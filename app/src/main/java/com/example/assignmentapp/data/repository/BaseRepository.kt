@@ -1,6 +1,6 @@
-package com.example.assignmentapp.repository
+package com.example.assignmentapp.data.repository
 
-import com.example.assignmentapp.network.Resource
+import com.example.assignmentapp.data.network.Resource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException

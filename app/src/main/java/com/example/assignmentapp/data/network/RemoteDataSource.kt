@@ -1,4 +1,4 @@
-package com.example.assignmentapp.network
+package com.example.assignmentapp.data.network
 
 import com.example.assignmentapp.BuildConfig
 import okhttp3.OkHttpClient
@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RemoteDataSource {
 
     companion object {
-        private const val BASE_URL = "https://green-thumb-64168.uc.r.appspot.com"
+        private const val BASE_URL = "https://green-thumb-64168.uc.r.appspot.com/"
     }
 
     fun <Api> buildApi(

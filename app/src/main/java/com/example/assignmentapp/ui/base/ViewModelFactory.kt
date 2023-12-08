@@ -2,8 +2,8 @@ package com.example.assignmentapp.ui.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.assignmentapp.repository.AuthRepository
-import com.example.assignmentapp.repository.BaseRepository
+import com.example.assignmentapp.data.repository.AuthRepository
+import com.example.assignmentapp.data.repository.BaseRepository
 import com.example.assignmentapp.ui.auth.AuthViewModel
 import java.lang.IllegalArgumentException
 

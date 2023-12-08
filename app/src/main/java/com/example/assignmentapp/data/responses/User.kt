@@ -1,4 +1,4 @@
-package com.example.assignmentapp.responses
+package com.example.assignmentapp.data.responses
 
 data class User(
     val accountNo: String,

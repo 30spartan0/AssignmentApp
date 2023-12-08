@@ -1,4 +1,4 @@
-package com.example.assignmentapp.network
+package com.example.assignmentapp.data.network
 
 import okhttp3.ResponseBody
 
